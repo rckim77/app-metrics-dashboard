@@ -1,0 +1,10 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+metrics-dashboard.env
+build/
+examples/demo/data/daily/
+examples/demo/data/metrics-*.json
+examples/demo/data/raw/
+examples/demo/data/refresh-progress.json

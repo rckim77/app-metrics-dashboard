@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "app": {
+    "name": "Orbit Notes",
+    "slug": "orbit-notes",
+    "appStoreId": "1234567890",
+    "platform": "IOS",
+    "liveStatus": false,
+    "version": "2.4.0",
+    "versionState": "READY_FOR_SALE"
+  },
+  "workspace": {
+    "root": ".",
+    "metricsDirectory": "data",
+    "metricsFile": "metrics.json"
+  },
+  "firebase": {
+    "projectId": "orbit-notes-demo",
+    "credentialFiles": []
+  },
+  "analytics": {
+    "firstOpenEvent": "first_open",
+    "permissionPromptEvent": "notification_prompt_viewed",
+    "permissionResultEvent": "notification_permission_result",
+    "permissionStatusParameter": "status",
+    "permissionAcceptedValues": ["authorized"],
+    "initialLoadEvent": "workspace_loaded",
+    "activationEvent": "first_note_created",
+    "activationValueParameter": "notes_created",
+    "meaningfulActivationMinimum": 1,
+    "paywallEvent": "premium_paywall_presented",
+    "primaryFeatureEvent": "note_shared",
+    "secondaryFeatureEvent": "document_imported"
+  },
+  "ui": {
+    "autoRefresh": false,
+    "activationLabel": "First note created",
+    "activationValueLabel": "Notes created",
+    "activationValueUnit": "number",
+    "featureLabels": ["Sharing", "Document imports"]
+  },
+  "content": {
+    "appContext": "app-marketing-context.md",
+    "growthTasks": "growth-tasks.md"
+  }
+}

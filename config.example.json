@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "app": {
+    "name": "Example App",
+    "slug": "example-app",
+    "appStoreId": "1234567890",
+    "platform": "IOS",
+    "liveStatus": true
+  },
+  "workspace": {
+    "root": ".",
+    "projectFile": "ExampleApp.xcodeproj/project.pbxproj",
+    "metricsDirectory": "build/AppMetrics",
+    "metricsFile": "metrics.json"
+  },
+  "firebase": {
+    "projectId": "example-firebase-project",
+    "dataset": null,
+    "credentialFiles": [
+      "../example-credentials/*.json"
+    ]
+  },
+  "analytics": {
+    "firstOpenEvent": "first_open",
+    "permissionPromptEvent": "permission_prompt_viewed",
+    "permissionResultEvent": "permission_result",
+    "permissionStatusParameter": "status",
+    "permissionAcceptedValues": ["authorized", "limited"],
+    "initialLoadEvent": "initial_load_completed",
+    "activationEvent": "activation_completed",
+    "activationValueParameter": "value",
+    "meaningfulActivationMinimum": 1,
+    "paywallEvent": "paywall_presented",
+    "primaryFeatureEvent": "primary_feature_used",
+    "secondaryFeatureEvent": "secondary_feature_used"
+  },
+  "ui": {
+    "autoRefresh": true,
+    "activationLabel": "Activation",
+    "activationValueLabel": "Value created",
+    "activationValueUnit": "number",
+    "featureLabels": ["Primary feature", "Secondary feature"]
+  },
+  "content": {
+    "appContext": "docs/app-marketing-context.md",
+    "growthTasks": "docs/growth-tasks.md",
+    "asoMonitor": "aso-monitor.json"
+  },
+  "envFile": "metrics-dashboard.env"
+}

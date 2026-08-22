@@ -1,0 +1,280 @@
+{
+  "asoMonitor": {
+    "note": "Add metrics-dashboard/aso-monitor.json to track metadata experiments.",
+    "status": "missing"
+  },
+  "generatedAt": "2026-08-22T01:08:03+00:00",
+  "period": {
+    "chartDays": 7,
+    "current": {
+      "days": 7,
+      "end": "2026-08-21",
+      "start": "2026-08-15"
+    },
+    "prior": {
+      "days": 7,
+      "end": "2026-08-14",
+      "start": "2026-08-08"
+    }
+  },
+  "sources": {
+    "appStoreConnect": {
+      "daily": [
+        {
+          "date": "2026-08-15",
+          "firstTimeDownloads": 56,
+          "firstTimeInstallSuccess": 52,
+          "impressions": 2240,
+          "productPageViews": 142,
+          "sessions": 770,
+          "taps": 166
+        },
+        {
+          "date": "2026-08-16",
+          "firstTimeDownloads": 61,
+          "firstTimeInstallSuccess": 57,
+          "impressions": 2380,
+          "productPageViews": 151,
+          "sessions": 812,
+          "taps": 176
+        },
+        {
+          "date": "2026-08-17",
+          "firstTimeDownloads": 65,
+          "firstTimeInstallSuccess": 61,
+          "impressions": 2490,
+          "productPageViews": 160,
+          "sessions": 844,
+          "taps": 188
+        },
+        {
+          "date": "2026-08-18",
+          "firstTimeDownloads": 68,
+          "firstTimeInstallSuccess": 63,
+          "impressions": 2580,
+          "productPageViews": 167,
+          "sessions": 878,
+          "taps": 195
+        },
+        {
+          "date": "2026-08-19",
+          "firstTimeDownloads": 74,
+          "firstTimeInstallSuccess": 69,
+          "impressions": 2730,
+          "productPageViews": 178,
+          "sessions": 914,
+          "taps": 212
+        },
+        {
+          "date": "2026-08-20",
+          "firstTimeDownloads": 79,
+          "firstTimeInstallSuccess": 73,
+          "impressions": 2890,
+          "productPageViews": 188,
+          "sessions": 978,
+          "taps": 226
+        },
+        {
+          "date": "2026-08-21",
+          "firstTimeDownloads": 83,
+          "firstTimeInstallSuccess": 77,
+          "impressions": 3110,
+          "productPageViews": 194,
+          "sessions": 1044,
+          "taps": 257
+        }
+      ],
+      "metrics": {
+        "crashes": {
+          "current": 3,
+          "prior": 5
+        },
+        "firstTimeDownloads": {
+          "current": 486,
+          "prior": 372
+        },
+        "firstTimeInstallSuccess": {
+          "current": 452,
+          "prior": 346
+        },
+        "hangs": {
+          "current": 1,
+          "prior": 2
+        },
+        "impressions": {
+          "current": 18420,
+          "prior": 15800
+        },
+        "pageConversionRate": {
+          "current": 0.412,
+          "prior": 0.384
+        },
+        "productPageViews": {
+          "current": 1180,
+          "prior": 970
+        },
+        "sessions": {
+          "current": 6240,
+          "prior": 5310
+        },
+        "tapThroughRate": {
+          "current": 0.077,
+          "prior": 0.071
+        },
+        "taps": {
+          "current": 1420,
+          "prior": 1120
+        }
+      },
+      "note": "Synthetic demo data",
+      "period": {
+        "ascDaysAvailable": 7,
+        "current": {
+          "days": 7,
+          "end": "2026-08-21",
+          "start": "2026-08-15"
+        },
+        "prior": {
+          "days": 7,
+          "end": "2026-08-14",
+          "start": "2026-08-08"
+        }
+      },
+      "reports": {
+        "discovery_engagement": true,
+        "downloads": true,
+        "sessions": true
+      },
+      "stability": {
+        "metrics": {
+          "crashes": {"current": 3},
+          "hangs": {"current": 1}
+        }
+      },
+      "sourceType": [
+        {
+          "name": "App Store Search",
+          "share": 0.572,
+          "value": 278
+        },
+        {
+          "name": "App Store Browse",
+          "share": 0.259,
+          "value": 126
+        },
+        {
+          "name": "Web Referrer",
+          "share": 0.169,
+          "value": 82
+        }
+      ],
+      "status": "ok",
+      "territories": [
+        {
+          "name": "United States",
+          "share": 0.621,
+          "value": 302
+        },
+        {
+          "name": "United Kingdom",
+          "share": 0.136,
+          "value": 66
+        },
+        {
+          "name": "Canada",
+          "share": 0.119,
+          "value": 58
+        }
+      ]
+    },
+    "appStoreListing": {
+      "status": "ok",
+      "metrics": {
+        "averageUserRating": {"current": 4.8},
+        "userRatingCount": {"current": 1284},
+        "version": {"current": "2.4.0"},
+        "currentVersionReleaseDate": {"current": "2026-08-12T12:00:00Z"}
+      }
+    },
+    "appStoreReviews": {
+      "status": "ok",
+      "reviewCount": 86,
+      "reviewsLoaded": true,
+      "ratings": {"averageRating": 4.8, "totalCount": 1284, "countryCount": 32},
+      "reviews": [],
+      "insights": {
+        "positiveThemes": [{"label": "Simple, clean interface", "count": 28}],
+        "negativeThemes": [{"label": "Missing features", "count": 4}]
+      }
+    },
+    "firebase": {
+      "status": "ok",
+      "note": "Synthetic GA4 demo data",
+      "period": {
+        "current": {"start": "2026-08-15", "end": "2026-08-21", "days": 7},
+        "prior": {"start": "2026-08-08", "end": "2026-08-14", "days": 7},
+        "ga4DaysAvailable": 7
+      },
+      "metrics": {
+        "firstOpen": {"current": 438, "prior": 336},
+        "permissionViewed": {"current": 390, "prior": 304},
+        "permissionAccepted": {"current": 318, "prior": 238},
+        "initialLoadCompleted": {"current": 401, "prior": 309},
+        "activationCompleted": {"current": 264, "prior": 184},
+        "activationValue": {"current": 614, "prior": 392},
+        "totalActivationValue": {"current": 4820},
+        "d0ActivationRate": {"current": 0.54, "users": 211, "base": 391},
+        "d3ActivationRate": {"current": 0.66, "users": 239, "base": 362},
+        "d0MeaningfulActivationRate": {"current": 0.46, "users": 180, "base": 391},
+        "d3MeaningfulActivationRate": {"current": 0.59, "users": 214, "base": 362},
+        "d5MeaningfulActivationRate": {"current": 0.62, "users": 201, "base": 324},
+        "d7MeaningfulActivationRate": {"current": 0.64, "users": 186, "base": 291},
+        "activationRate": {"current": 0.59, "users": 214, "base": 362},
+        "paywallExposureRate": {"current": 0.23, "users": 162, "base": 704},
+        "primaryFeatureUserRate": {"current": 0.29, "users": 126, "base": 438},
+        "secondaryFeatureUserRate": {"current": 0.18, "users": 79, "base": 438},
+        "dau": {"current": 226, "prior": 184},
+        "mau": {"current": 704, "prior": 612}
+      },
+      "daily": [
+        {"date": "2026-08-15", "first_open": 54, "activation_completed": 29, "activation_value": 68, "paywall_presented": 18, "primary_feature_used": 13, "secondary_feature_used": 7, "dau": 202},
+        {"date": "2026-08-16", "first_open": 57, "activation_completed": 31, "activation_value": 72, "paywall_presented": 20, "primary_feature_used": 14, "secondary_feature_used": 8, "dau": 208},
+        {"date": "2026-08-17", "first_open": 59, "activation_completed": 34, "activation_value": 79, "paywall_presented": 21, "primary_feature_used": 15, "secondary_feature_used": 9, "dau": 216},
+        {"date": "2026-08-18", "first_open": 61, "activation_completed": 36, "activation_value": 84, "paywall_presented": 22, "primary_feature_used": 17, "secondary_feature_used": 10, "dau": 221},
+        {"date": "2026-08-19", "first_open": 65, "activation_completed": 40, "activation_value": 92, "paywall_presented": 25, "primary_feature_used": 19, "secondary_feature_used": 12, "dau": 229},
+        {"date": "2026-08-20", "first_open": 68, "activation_completed": 45, "activation_value": 104, "paywall_presented": 27, "primary_feature_used": 22, "secondary_feature_used": 15, "dau": 239},
+        {"date": "2026-08-21", "first_open": 74, "activation_completed": 49, "activation_value": 115, "paywall_presented": 29, "primary_feature_used": 26, "secondary_feature_used": 18, "dau": 267}
+      ],
+      "activationCohorts": [
+        {"date": "2026-08-15", "d0MeaningfulActivationRate": 0.41, "d3MeaningfulActivationRate": 0.53, "d5MeaningfulActivationRate": 0.58, "d7MeaningfulActivationRate": 0.61},
+        {"date": "2026-08-16", "d0MeaningfulActivationRate": 0.43, "d3MeaningfulActivationRate": 0.55, "d5MeaningfulActivationRate": 0.59, "d7MeaningfulActivationRate": 0.62},
+        {"date": "2026-08-17", "d0MeaningfulActivationRate": 0.45, "d3MeaningfulActivationRate": 0.57, "d5MeaningfulActivationRate": 0.61, "d7MeaningfulActivationRate": 0.63},
+        {"date": "2026-08-18", "d0MeaningfulActivationRate": 0.47, "d3MeaningfulActivationRate": 0.59, "d5MeaningfulActivationRate": 0.62, "d7MeaningfulActivationRate": 0.64},
+        {"date": "2026-08-19", "d0MeaningfulActivationRate": 0.48, "d3MeaningfulActivationRate": 0.61, "d5MeaningfulActivationRate": 0.64, "d7MeaningfulActivationRate": 0.66}
+      ]
+    },
+    "revenueCat": {
+      "status": "ok",
+      "note": "Synthetic RevenueCat demo data",
+      "period": {"current": {"start": "2026-08-15", "end": "2026-08-21", "days": 7}},
+      "metrics": {
+        "revenueOverviewUsd": {"current": 1842},
+        "mrrOverviewUsd": {"current": 6120},
+        "newCustomersOverview": {"current": 118},
+        "activeSubscriptionsOverview": {"current": 742},
+        "activeTrials": {"current": 96},
+        "trialConversionRate": {"current": 0.43},
+        "churnRate": {"current": 0.027}
+      },
+      "daily": [
+        {"date": "2026-08-15", "revenueUsd": 212, "mrrUsd": 5880, "newCustomers": 13, "newTrials": 16, "activeSubscriptions": 704, "trialStarts": 16, "trialConversions": 7, "trialExpirations": 4, "churnRate": 0.031},
+        {"date": "2026-08-16", "revenueUsd": 224, "mrrUsd": 5920, "newCustomers": 14, "newTrials": 17, "activeSubscriptions": 711, "trialStarts": 17, "trialConversions": 7, "trialExpirations": 4, "churnRate": 0.029},
+        {"date": "2026-08-17", "revenueUsd": 238, "mrrUsd": 5965, "newCustomers": 15, "newTrials": 18, "activeSubscriptions": 718, "trialStarts": 18, "trialConversions": 8, "trialExpirations": 4, "churnRate": 0.028},
+        {"date": "2026-08-18", "revenueUsd": 249, "mrrUsd": 6010, "newCustomers": 16, "newTrials": 19, "activeSubscriptions": 724, "trialStarts": 19, "trialConversions": 8, "trialExpirations": 5, "churnRate": 0.027},
+        {"date": "2026-08-19", "revenueUsd": 267, "mrrUsd": 6050, "newCustomers": 18, "newTrials": 20, "activeSubscriptions": 731, "trialStarts": 20, "trialConversions": 9, "trialExpirations": 5, "churnRate": 0.026},
+        {"date": "2026-08-20", "revenueUsd": 302, "mrrUsd": 6090, "newCustomers": 20, "newTrials": 22, "activeSubscriptions": 737, "trialStarts": 22, "trialConversions": 10, "trialExpirations": 5, "churnRate": 0.025},
+        {"date": "2026-08-21", "revenueUsd": 350, "mrrUsd": 6120, "newCustomers": 22, "newTrials": 24, "activeSubscriptions": 742, "trialStarts": 24, "trialConversions": 11, "trialExpirations": 5, "churnRate": 0.024}
+      ]
+    }
+  }
+}
