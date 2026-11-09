@@ -603,7 +603,10 @@ def project_marketing_version() -> str | None:
     if not project_file or not project_file.exists():
         return None
     text = project_file.read_text(encoding="utf-8", errors="ignore")
-    versions = re.findall(r"MARKETING_VERSION = ([^;]+);", text)
+    if project_file.suffix == ".xcproj":
+        versions = re.findall(r'"MARKETING_VERSION(?:\[[^\]"\n]+\])*"\s*:\s*"([^"\n]+)"', text)
+    else:
+        versions = re.findall(r"MARKETING_VERSION = ([^;]+);", text)
     cleaned = [value.strip().strip('"') for value in versions if value.strip()]
     if not cleaned:
         return None
